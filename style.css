@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  border: 2px solid black;
+  padding: 2rem;
+  width: 100%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.navigation {
+  padding: 1rem;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.increase {
+  font-weight: bold;
+  padding: 2px 3px;
+  border: 2px solid black;
+}
+.reset {
+  padding: 2px 3px;
+  font-weight: bold;
+  margin: 5px;
+  border: 2px solid black;
+}
+.decrease {
+  padding: 2px 3px;
+  font-weight: bold;
+  border: 2px solid black;
+}
